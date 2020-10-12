@@ -1,10 +1,10 @@
-package DesafioArq.eurekaservicediscovery;
+package DesafioArq.mycloudconfig;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class EurekaServiceDiscoveryApplicationTests {
+class MyCloudConfigApplicationTests {
 
 	@Test
 	void contextLoads() {

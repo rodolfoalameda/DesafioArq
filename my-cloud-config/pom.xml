@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>DesafioArq</groupId>
-	<artifactId>eureka-service-discovery</artifactId>
+	<artifactId>my-cloud-config</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>eureka-service-discovery</name>
+	<name>my-cloud-config</name>
 	<description>-</description>
 
 	<properties>
@@ -30,11 +30,7 @@
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-config</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+			<artifactId>spring-cloud-config-server</artifactId>
 		</dependency>
 
 		<dependency>

@@ -1,4 +1,4 @@
-package DesafioArq.gitconfigserver;
+package DesafioArq.mycloudconfig;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,10 +6,10 @@ import org.springframework.cloud.config.server.EnableConfigServer;
 
 @EnableConfigServer
 @SpringBootApplication
-public class GitConfigServerApplication {
+public class MyCloudConfigApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(GitConfigServerApplication.class, args);
+		SpringApplication.run(MyCloudConfigApplication.class, args);
 	}
 
 }
