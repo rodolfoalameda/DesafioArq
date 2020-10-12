@@ -1,10 +1,11 @@
 server:
-  port: 8081
-
-spring:
-  application:
-    name: produto
-
+  port: 9098
+ 
 eureka:
   instance:
     hostname: localhost
+    port: 9090
+    
+    client:
+      registerWithEureka: true
+  
