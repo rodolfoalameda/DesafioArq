@@ -16,6 +16,5 @@ eureka:
 zuul:
   routes:
     produto:
-      path: /services/produto/**
-      url: http://localhost:9098/animal
-  
+      path: /produto/**
+      url: http://localhost:9098/produto
