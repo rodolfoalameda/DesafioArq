@@ -1,5 +1,5 @@
 server:
-  port: 9098
+  port: 9070
 
 eureka:
   instance:
@@ -9,6 +9,13 @@ eureka:
     registerWithEureka: true
     fetchRegistry: false
     serviceUrl:
-     defaultZone: http://${eureka.instance.hostname}:${eureka.instance.port}/eureka/
+      defaultZone: http://${eureka.instance.hostname}:${eureka.instance.port}/eureka/
   server:
-     wait-time-in-ms-when-sync-empty: 3000000
+    wait-time-in-ms-when-sync-empty: 3000
+
+zuul:
+  routes:
+    produto:
+      path: /services/produto/**
+      url: http://localhost:9098/animal
+  
